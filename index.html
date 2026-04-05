@@ -1,6 +1,4 @@
-export default {
-  async fetch(request) {
-    const html = String.raw`<!doctype html>
+<!doctype html>
 <html amp lang="en-ID">
 <head>
    <meta charset="utf-8" />
@@ -225,9 +223,4 @@ export default {
          <p class="copyright" style="color: #cccccc;">&copy; Copyright by 2026 <a href="https://www.conceptenglish.org/galerie" style="color: #ffd700; font-weight: bold; text-decoration: none;"><strong>Jawa138</strong></a></p>
    </div>
 </body>
-</html>`;
-return new Response(html, {
-  headers: { "content-type": "text/html; charset=UTF-8" },
-});
-},
-};
+</html>
